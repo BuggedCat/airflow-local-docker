@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "local-airflow"
+version = "0.1.0"
+description = ""
+authors = ["Giancarlo Lester <gatobugado.dev@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apache-airflow = "2.6.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ruff = "^0.0.275"
+mypy = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
